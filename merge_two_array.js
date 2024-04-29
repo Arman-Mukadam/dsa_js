@@ -13,9 +13,10 @@
 
 // console.log(data3);
 
-// concate using spread operator(2 way)
+//2 way concate using spread operator
 let data1 = [3, 7, 14, 5, 6, 7, 8]
 let data2 = [45, 65, 85, 41, 52, 56]
-
 let data3 = [...data1, ...data2]
 console.log(data3);
+
+

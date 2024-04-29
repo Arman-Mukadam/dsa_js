@@ -13,8 +13,6 @@
 // console.log(data.indexOf(item));
 // console.log(index);
 
-
-
 // if array consists 2 same val 
 let data = [10, 20, 30, 40, 50, 20]
 let index = [];
