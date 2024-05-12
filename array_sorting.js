@@ -12,7 +12,7 @@ for (let i = 0; i < data.length; i++) {
 }
 
 console.log(data);
-// loop will runn for length X length times
+// loop will run for length X length times
 
 // bubble sort
 
