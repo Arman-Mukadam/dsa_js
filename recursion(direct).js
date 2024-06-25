@@ -12,6 +12,7 @@ function apple(x) {
     return x; // Return x when x is greater than or equal to 7
 }
 apple(4);
+
 function factorial(n) {
     if (n === 0) {
         return 1;
