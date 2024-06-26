@@ -1,27 +1,17 @@
 let money = 100;
-let totalApple = 0;
+let apple = 0;
 
 function buyApple(x) {
     if (x > 0) {
-        console.log("I have", x, "RS", totalApple);
+        console.log(`I have ${x} rs and ${apple} apple`);
         buyMore(x - 10);
     } else {
-        console.log("I don't have more money and apples - ", totalApple);
+        console.log("I don't have more money and apples - ", apple);
     }
 }
 function buyMore(x) {
-    totalApple++;
+    apple++;
     buyApple(x - 5);
 }
 
 buyApple(money);
-function test(x) {
-    // console.log(x)
-    if (x > 0) {
-        test(x - 1)
-    }
-    console.log(x)
-}
-
-let data = 5;
-test(data)
