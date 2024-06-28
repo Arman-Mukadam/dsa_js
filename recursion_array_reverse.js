@@ -4,18 +4,14 @@ let temp;
 function reverseFunc(data, start, end) {
     console.log(data);
     if (start <= end) {
-
         temp = data[start];
         data[start] = data[end];
         data[end] = temp;
-
         reverseFunc(data, start + 1, end - 1);
     }
 }
 
 reverseFunc(data, 0, data.length - 1);// which data u have to enter,starting point,end point -1
-
-
 
 
 
